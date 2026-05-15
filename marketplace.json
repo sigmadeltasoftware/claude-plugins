@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sigmadelta-plugins",
+  "version": "1.0.0",
+  "description": "Claude Code plugins by sigmadelta — Synapse architectural documentation sync",
+  "owner": {
+    "name": "sigmadelta",
+    "email": "belic_bojan@sigmadelta.be"
+  },
+  "plugins": [
+    {
+      "name": "synapse",
+      "description": "Bidirectional code-documentation sync via hash-based anchors and versioned architectural maps. Auto-discovers flows, enforces doc freshness via pre-commit hooks, and provides a live HTML viewer with pan/zoom diagrams.",
+      "version": "2.1.0",
+      "author": {
+        "name": "sigmadelta"
+      },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sigmadeltasoftware/synapse.git"
+      }
+    }
+  ]
+}
